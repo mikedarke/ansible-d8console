@@ -1,0 +1,5 @@
+---
+# defaults file for mdarke.d8console
+console_phar_url: https://drupalconsole.com/installer
+phar_destination: ~/drupal.phar
+drupal_cmd_destination: /usr/local/bin/drupal
