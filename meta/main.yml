@@ -121,9 +121,9 @@ galaxy_info:
   #  - 9.1
   #  - 9.2
   #  - 9.3
-  - name: Ubuntu
-    versions:
-    - all
+  #- name: Ubuntu
+  #  versions
+  #  - all
   #  - lucid
   #  - maverick
   #  - natty
@@ -149,10 +149,10 @@ galaxy_info:
   #  - 11SP4
   #  - 12
   #  - 12SP1
-  - name: GenericLinux
-    versions:
+  #- name: GenericLinux
+  #  versions:
   #  - all
-    - any
+  #  - any
   #- name: NXOS
   #  versions:
   #  - all
