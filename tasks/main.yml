@@ -1,7 +1,7 @@
 ---
 # tasks file for mdarke.d8console
 - name: Download Drupal Console Phar
-  get_url: "{{ console_phar_url }}" dest="{{ phar_destination }}" mode=0440
+  get_url: url="{{ console_phar_url }}" dest="{{ phar_destination }}" mode=0440
 
 - name: Move Phar to destination
   command: mv "{{ phar_destination }}" "{{ drupal_cmd_destination }}"
